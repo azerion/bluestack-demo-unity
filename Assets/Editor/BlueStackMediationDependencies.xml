@@ -1,0 +1,1 @@
+<networkList><androidNetworks></androidNetworks><iosNetworks><network name="AdMob" package="Google-Mobile-Ads-SDK" active="True" /><network name="Smart Display" package="Smart-Display-SDK" active="True" /></iosNetworks></networkList>

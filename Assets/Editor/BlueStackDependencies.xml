@@ -1,0 +1,1 @@
+<dependencies><androidPackages><androidPackage spec="com.azerion:bluestack-sdk-core:4.3.2" /></androidPackages><iosPods><iosPod name="BlueStack-SDK" version="4.4.6" bitcodeEnabled="false" addToAllTargets="false" subspecs="['Google-Mobile-Ads-SDK', 'Smart-Display-SDK', ]" /></iosPods></dependencies>

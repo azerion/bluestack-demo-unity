@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5d829603890334b9cb6dbb11c33ee390
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bluefish Black Demo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 33c6721f83b714c5c970ce28389ecc71, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

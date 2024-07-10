@@ -1,0 +1,41 @@
+pluginManagement {
+    repositories {
+        **ARTIFACTORYREPOSITORY**
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+include ':launcher', ':unityLibrary'
+**INCLUDES**
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        **ARTIFACTORYREPOSITORY**
+        google()
+        mavenCentral()
+// Android Resolver Repos Start
+        def unityProjectPath = $/file:///**DIR_UNITYPROJECT**/$.replace("\\", "/")
+        mavenLocal()
+// Android Resolver Repos End
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+// For Sync SDK
+        maven {
+            url 'https://api.bitbucket.org/2.0/repositories/sync_tv/maven-sync/src/master'
+            credentials {
+                username "guestsync"
+                password "ELn3qwzMCWmJcawgHdqM"
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+        maven {
+            url 'https://packagecloud.io/smartadserver/android/maven2'
+        }
+    }
+}
