@@ -5,8 +5,11 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
 // Android Resolver Dependencies Start
-    implementation 'com.azerion:bluestack-sdk-core:4.3.2' // Packages/com.azerion.bluestack/Editor/BlueStackDependencies.xml:3
+    implementation 'com.azerion:bluestack-mediation-gma:4.4.0.0' // Assets/Editor/BlueStackDependencies.xml:13
+    implementation 'com.azerion:bluestack-mediation-ogury:4.4.0.0' // Assets/Editor/BlueStackDependencies.xml:12
+    implementation 'com.azerion:bluestack-sdk-core:4.4.0' // Packages/com.azerion.bluestack/Editor/BlueStackDependencies.xml:7
 // Android Resolver Dependencies End
 **DEPS**}
 

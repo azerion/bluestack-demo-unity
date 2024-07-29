@@ -15,3 +15,4 @@ MonoBehaviour:
   admobAppIdAndroid: ca-app-pub-2316275586951220~5321155424
   admobAppIdIOS: ca-app-pub-2316275586951220~5714186482
   iOSMediationNetworks: []
+  androidMediationNetworks: []

@@ -1,6 +1,8 @@
 <dependencies>
   <packages>
-    <package>com.azerion:bluestack-sdk-core:4.3.2</package>
+    <package>com.azerion:bluestack-mediation-gma:4.4.0.0</package>
+    <package>com.azerion:bluestack-mediation-ogury:4.4.0.0</package>
+    <package>com.azerion:bluestack-sdk-core:4.4.0</package>
   </packages>
   <files />
   <settings>
