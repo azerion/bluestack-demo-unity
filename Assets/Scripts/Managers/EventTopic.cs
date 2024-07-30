@@ -1,0 +1,26 @@
+public enum EventTopic
+{
+    InitializeAdSDK,
+    AdSDKInitializationStatus,
+    CloseAd,
+    LoadAd,
+    LoadNativeAd,
+    ShowNativeAd,
+    ShowInterstitial,
+    ShowRewarded,
+    ShowBanner,
+    ChangeBannerPosition,
+    HideBanner,
+    DestroyBanner,
+    DestroyNativeAd,
+    AdLoaded,
+    NativeAdLoaded,
+    AdFailedToLoad,
+    AdDisplayed,
+    BannerAdDisplayed,
+    BannerAdPositionChanged,
+    AdLeavingApplication,
+    AdClosed,
+    AdFailedToDisplay,
+    AdRewardEarned
+}
